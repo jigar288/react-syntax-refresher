@@ -23,6 +23,9 @@ function App() {
         {/* <User userStatus={true}/> */}
 
         {/* <Form/> */}
+        
+        {/* You can pass code as props like this to other components */}
+        {/* <DataProvider render={data => ( <h1>Hello {data.target}</h1> )}/> */}
 
         <Calculator tempType='f' />
         
