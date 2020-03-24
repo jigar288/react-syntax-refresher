@@ -5,6 +5,7 @@ import Counter from './components/Counter'
 import User from "./components/User"
 import UserNames from "./components/UserNames"
 import Form from "./components/Form"
+import Calculator from "./components/Calculator" 
 import './App.css';
 
 function App() {
@@ -21,9 +22,9 @@ function App() {
 
         {/* <User userStatus={true}/> */}
 
-        <Form/>
+        {/* <Form/> */}
 
-          
+        <Calculator tempType='f' />
         
     </div>
   );
